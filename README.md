@@ -1,2 +1,2 @@
 # aliyunddns
-使用阿里云解析api实现动态dns解析
+使用php调用阿里云解析api实现动态dns解析
