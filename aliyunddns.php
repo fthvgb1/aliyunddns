@@ -12,7 +12,7 @@ $GLOBALS['AccessKeyId'] = '';  //填Access Key Id
 $GLOBALS['AccessKeySecret'] = ''; //填Access Key Secret
 $GLOBALS['DomainName'] = ''; //填域名
 
-$ip = file_get_contents('http://ip.cip.cc');  //你当前的真实ip，也就是你要解析的ip
+$ip = trim(file_get_contents('http://ip.cip.cc'));  //你当前的真实ip，也就是你要解析的ip
 date_default_timezone_set("UTC");//设置时区为utc
 
 /**
